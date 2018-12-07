@@ -1,46 +1,48 @@
 .body {
-    background-image: url(background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100vh;
+  background-image: url(http://www.hddesktopbackgrounds.us/backgrounds-images/1920x1080/bytb5-wallpapers-010625372-1920x1080.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .translucent-form-overlay {
-    max-width: 500px;
-    width: 100%;
-    background-color: rgba(54, 54, 54, 0.8);
-    padding: 20px;
-    color: #fefefe;
-  }
-  
-  .translucent-form-overlay .columns.row {
-    display: block;
-  }
-  
-  .translucent-form-overlay h3, .translucent-form-overlay label {
-    color: #fefefe;
-  }
-  
-  .translucent-form-overlay input, .translucent-form-overlay select {
-    color: #8a8a8a;
-  }
-  
-  .translucent-form-overlay input::-webkit-input-placeholder {
-    color: #8a8a8a;
-  }
-  
-  .translucent-form-overlay input:-ms-input-placeholder {
-    color: #8a8a8a;
-  }
-  
-  .translucent-form-overlay input::placeholder {
-    color: #8a8a8a;
-  }
-  
-  Similar Building Blocks
+  max-width: 500px;
+  width: 100%;
+  background-color: rgba(54, 54, 54, 0.8);
+  padding: 20px;
+  color: #fefefe;
+}
+
+.translucent-form-overlay .columns.row {
+  display: block;
+}
+
+.translucent-form-overlay h3,
+.translucent-form-overlay label {
+  color: #fefefe;
+}
+
+.translucent-form-overlay input,
+.translucent-form-overlay select {
+  color: #8a8a8a;
+}
+
+.translucent-form-overlay input::-webkit-input-placeholder {
+  color: #8a8a8a;
+}
+
+.translucent-form-overlay input:-ms-input-placeholder {
+  color: #8a8a8a;
+}
+
+.translucent-form-overlay input::placeholder {
+  color: #8a8a8a;
+}
+
+/* Similar Building Blocks
   FORMS
   Floating Label Form
   F6
@@ -50,5 +52,4 @@
   Plus Minus Buttons
   F6
    By Harry Manchanda
-  32
-  
+  32 */
