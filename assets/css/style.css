@@ -1,7 +1,12 @@
-#body {
+.body {
     background-image: url(background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .translucent-form-overlay {
     max-width: 500px;
@@ -9,7 +14,6 @@
     background-color: rgba(54, 54, 54, 0.8);
     padding: 20px;
     color: #fefefe;
-    position: relative;
   }
   
   .translucent-form-overlay .columns.row {
