@@ -2,7 +2,7 @@
 
 var loc = "Raleigh";
 var cat = "Music";
-var date = "Today";
+var date = "2018120100-2019010123";
 
 
 var apiKey = "d5BxBLF9bV3zMw6v";
