@@ -42,6 +42,14 @@
   color: #8a8a8a;
 }
 
+.grid-container {
+  max-width: 500px;
+  width: 100%;
+  background-color: rgba(54, 54, 54, 0.8);
+  padding: 20px;
+  color: #fefefe;
+}
+
 /* Similar Building Blocks
   FORMS
   Floating Label Form
