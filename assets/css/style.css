@@ -3,6 +3,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
+  border-radius: 5px;
 
   display: flex;
   justify-content: space-evenly;
