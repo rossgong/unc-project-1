@@ -1,11 +1,12 @@
-.body {
+.wrapper {
   background-image: url(http://www.hddesktopbackgrounds.us/backgrounds-images/1920x1080/bytb5-wallpapers-010625372-1920x1080.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
+  border-radius: 5px;
 
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 }
 .translucent-form-overlay {
@@ -49,7 +50,14 @@
   padding: 20px;
   color: #fefefe;
 }
-
+.card-wrapper {
+  background-color: rgba(54, 54, 54, 0.8);
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 500px;
+  max-height: 500px;
+  overflow: auto;
+}
 /* Similar Building Blocks
   FORMS
   Floating Label Form
