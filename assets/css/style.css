@@ -1,4 +1,10 @@
-.wrapper {
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.body {
   background-image: url(http://www.hddesktopbackgrounds.us/backgrounds-images/1920x1080/bytb5-wallpapers-010625372-1920x1080.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -50,6 +56,7 @@
   padding: 20px;
   color: #fefefe;
 }
+<<<<<<< Updated upstream
 .card-wrapper {
   background-color: rgba(54, 54, 54, 0.8);
   padding: 20px;
@@ -58,6 +65,13 @@
   max-height: 500px;
   overflow: auto;
 }
+=======
+
+#map {
+  height: 100%;
+}
+
+>>>>>>> Stashed changes
 /* Similar Building Blocks
   FORMS
   Floating Label Form

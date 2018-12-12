@@ -11,7 +11,6 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.5.1/css/foundation-float.css"
     />
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
     <script src="assets/js/script.js"></script>
@@ -110,8 +109,26 @@
           </div>
         </div>
       </div>
+<<<<<<< Updated upstream
 
     </div>
+=======
+      <div id="map">map</div>
+      <script>
+        var map;
+        function initMap() {
+          map = new google.maps.Map(document.getElementById("map"), {
+            center: { lat: -34.397, lng: 150.644 },
+            zoom: 8
+          });
+        }
+      </script>
+      <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDi3cbE_1LkN-5PsHkdttY3nJGJskmWwN0&callback=initMap"
+        async
+        defer
+      ></script>
+>>>>>>> Stashed changes
     </div>
 
     <!-- cards set -->
