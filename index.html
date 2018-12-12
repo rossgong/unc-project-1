@@ -17,7 +17,7 @@
     <script src="assets/js/script.js"></script>
   </head>
   <body>
-    <div id="container" class="body">
+    <div id="container" class="wrapper">
       <div class="translucent-form-overlay">
         <form>
           <h3>Search for Events</h3>
@@ -42,36 +42,14 @@
               </select>
             </label>
           </div>
-          <!--
-            <div class="row columns">
-              <label
-                >Property Type
-                <select name="status" type="text">
-                  <option>Any</option>
-                  <option value="office">Office</option>
-                  <option value="building">Building</option>
-                </select>
-              </label>
-            </div>
-          -->
           <div class="row columns">
-            <label
-              >Location <input type="text" name="location" placeholder="Any" />
-            </label>
+            <label>Location <input type="text" name="location" placeholder="Any" /> </label>
           </div>
-          <!--
-            <div class="row">
-              <label class="columns small-12">Price</label>
-              <div class="columns small-6"><input type="number" min="0" name="min" placeholder="Min" /></div>
-              <div class="columns small-6"><input type="number" min="0" name="max" placeholder="Max" /></div>
-            </div>
-          -->
-          <button type="button" class="primary button expanded search-button">
-            Search
-          </button>
+          <button type="button" class="primary button expanded search-button">Search</button>
         </form>
       </div>
-    </div>
+
+      <div class="grid-x grid-padding-x small-up-2 medium-up-3 card-wrapper">
 
     <!-- cards set -->
 
@@ -82,7 +60,7 @@
             <img src="assets/img/generic/rectangle-1.jpg" />
             <div class="card-section">
               <h4>This is a row of cards.</h4>
-              <p>This row of cards is embedded in an X-Y Block Grid.</p>
+              <p>This row of cards is embedded in an Flex Block Grid.</p>
             </div>
           </div>
         </div>
@@ -91,10 +69,7 @@
             <img src="assets/img/generic/rectangle-1.jpg" />
             <div class="card-section">
               <h4>This is a card.</h4>
-              <p>
-                It has an easy to override visual style, and is appropriately
-                subdued.
-              </p>
+              <p>It has an easy to override visual style, and is appropriately subdued.</p>
             </div>
           </div>
         </div>
@@ -103,49 +78,42 @@
             <img src="assets/img/generic/rectangle-1.jpg" />
             <div class="card-section">
               <h4>This is a card.</h4>
-              <p>
-                It has an easy to override visual style, and is appropriately
-                subdued.
-              </p>
+              <p>It has an easy to override visual style, and is appropriately subdued.</p>
+            </div>
+          </div>
+        </div>
+        <div class="cell">
+          <div class="card">
+            <img src="assets/img/generic/rectangle-1.jpg" />
+            <div class="card-section">
+              <h4>This is a row of cards.</h4>
+              <p>This row of cards is embedded in an Flex Block Grid.</p>
+            </div>
+          </div>
+        </div>
+        <div class="cell">
+          <div class="card">
+            <img src="assets/img/generic/rectangle-1.jpg" />
+            <div class="card-section">
+              <h4>This is a card.</h4>
+              <p>It has an easy to override visual style, and is appropriately subdued.</p>
+            </div>
+          </div>
+        </div>
+        <div class="cell">
+          <div class="card">
+            <img src="assets/img/generic/rectangle-1.jpg" />
+            <div class="card-section">
+              <h4>This is a card.</h4>
+              <p>It has an easy to override visual style, and is appropriately subdued.</p>
             </div>
           </div>
         </div>
       </div>
+
     </div>
-    <div class="grid-x grid-padding-x small-up-2 medium-up-3">
-      <div class="cell">
-        <div class="card">
-          <img src="assets/img/generic/rectangle-1.jpg" />
-          <div class="card-section">
-            <h4>This is a row of cards.</h4>
-            <p>This row of cards is embedded in an Flex Block Grid.</p>
-          </div>
-        </div>
-      </div>
-      <div class="cell">
-        <div class="card">
-          <img src="assets/img/generic/rectangle-1.jpg" />
-          <div class="card-section">
-            <h4>This is a card.</h4>
-            <p>
-              It has an easy to override visual style, and is appropriately
-              subdued.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="cell">
-        <div class="card">
-          <img src="assets/img/generic/rectangle-1.jpg" />
-          <div class="card-section">
-            <h4>This is a card.</h4>
-            <p>
-              It has an easy to override visual style, and is appropriately
-              subdued.
-            </p>
-          </div>
-        </div>
-      </div>
     </div>
+
+    <!-- cards set -->
   </body>
 </html>
