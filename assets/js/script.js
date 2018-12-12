@@ -1,5 +1,4 @@
 
-
 var loc = "Raleigh";
 var cat = "Music";
 var date = "2019010100-2019010200";
