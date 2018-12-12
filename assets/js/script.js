@@ -8,7 +8,7 @@ var date = "2019010100-2019010200";
 var apiKey = "d5BxBLF9bV3zMw6v";
 
 $(document).ready(function () {
-	$(".button").on("click", function (event) {
+	$("#search-btn").on("click", function (event) {
 		$.ajax({
 			url: constructURL(),
 			method: "GET",
