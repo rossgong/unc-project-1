@@ -62,7 +62,7 @@ function createCard(event) {
 	infoSection.append($("<p>", { id: "event-date" }).text(eventDate.format("MMMM DD YYYY, h:mm a")));
 	infoSection.append($("<a>", { href: event.url }).text("More Info"))
 
-	var mapDiv = $("<div>", { class: "map" });
+	var mapDiv = $("<div>", { class: "map card-section" });
 
 	var map = new google.maps.Map(mapDiv[0], {
 		center: { lat: parseFloat(event.latitude), lng: parseFloat(event.longitude) },
@@ -71,9 +71,9 @@ function createCard(event) {
 
 	new google.maps.Marker({ position: { lat: parseFloat(event.latitude), lng: parseFloat(event.longitude) }, map: map });
 
-	infoSection.append(mapDiv);
-
 	card.append(infoSection);
+
+	card.append(mapDiv);
 
 	return $("<div>", { class: "cell" }).append(card);
 }

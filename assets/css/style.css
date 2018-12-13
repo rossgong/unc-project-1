@@ -10,7 +10,7 @@
 }
 
 .translucent-form-overlay {
-  max-width: 500px;
+  /* max-width: 500px; */
   width: 100%;
   background-color: rgba(54, 54, 54, 0.8);
   padding: 20px;
@@ -45,7 +45,6 @@
 }
 
 .grid-container {
-  max-width: 500px;
   width: 100%;
   background-color: rgba(54, 54, 54, 0.8);
   padding: 20px;
@@ -55,9 +54,25 @@
   background-color: rgba(54, 54, 54, 0.8);
   padding: 20px;
   border-radius: 10px;
-  max-width: 500px;
-  max-height: 500px;
+  width: 75%;
+  height: 90vh;
+
+  margin: 0 5vh;
   overflow: auto;
+}
+
+#search-box {
+	flex-grow: 1;
+	margin: 1vw;
+	width: 25%;
+}
+
+#card-box {
+	flex-grow: 2;
+}
+
+.card {
+	display: flex;
 }
 
 p {
@@ -77,8 +92,27 @@ h4 {
 }
 
 .map {
-	height: 100px;
+	height: 250px;
 }
+
+.card-section {
+	width: 50%;
+}
+
+@media screen and (max-width: 1024px) {
+	.wrapper {
+		flex-direction: column;
+	}
+
+	#search-box {
+		width: unset;
+	}
+
+	#card-box {
+		width: unset;
+	}
+}
+
 
 
 
