@@ -27,19 +27,17 @@
 				<div class="row columns">
 					<label>Categories
 						<select name="status" type="text" id="cat-input">
-							<option>Any</option>
-							<option value="Concerts & Tour Dates">Concerts & Tour Dates</option>
-							<!-- <option value="Holiday">Holiday</option> -->
-							<option value="Festivals">Festivals</option>
-							<option value="Nightlife & Singles">Nightlife & Singles</option>
-							<option value="Performing Arts">Performing Arts</option>
+							<option value="music">Music</option>
+							<option value="festivals_parades">Festivals</option>
+							<option value="singles_social">Nightlife & Singles</option>
+							<option value="performing_arts">Performing Arts</option>
 						</select>
 					</label>
 				</div>
 				<div class="row columns">
 					<label>Location <input type="text" name="location" placeholder="Any" id="location-input" /> </label>
 				</div>
-				<button type="button" class="primary button expanded search-button" id="search-btn">Search</button>
+				<button type="submit" class="primary button expanded search-button" id="search-btn">Search</button>
 			</form>
 		</div>
 
@@ -51,55 +49,14 @@
 				<div class="grid-x grid-padding-x small-up-2 medium-up-3" id="card-container">
 					<div class="cell">
 						<div class="card">
-							<img src="assets/img/generic/rectangle-1.jpg" />
 							<div class="card-section">
-								<h4>This is a row of cards.</h4>
-								<p>This row of cards is embedded in an Flex Block Grid.</p>
-							</div>
-						</div>
-					</div>
-					<div class="cell">
-						<div class="card">
-							<img src="assets/img/generic/rectangle-1.jpg" />
-							<div class="card-section">
-								<h4>This is a card.</h4>
-								<p>It has an easy to override visual style, and is appropriately subdued.</p>
-							</div>
-						</div>
-					</div>
-					<div class="cell">
-						<div class="card">
-							<img src="assets/img/generic/rectangle-1.jpg" />
-							<div class="card-section">
-								<h4>This is a card.</h4>
-								<p>It has an easy to override visual style, and is appropriately subdued.</p>
-							</div>
-						</div>
-					</div>
-					<div class="cell">
-						<div class="card">
-							<img src="assets/img/generic/rectangle-1.jpg" />
-							<div class="card-section">
-								<h4>This is a row of cards.</h4>
-								<p>This row of cards is embedded in an Flex Block Grid.</p>
-							</div>
-						</div>
-					</div>
-					<div class="cell">
-						<div class="card">
-							<img src="assets/img/generic/rectangle-1.jpg" />
-							<div class="card-section">
-								<h4>This is a card.</h4>
-								<p>It has an easy to override visual style, and is appropriately subdued.</p>
-							</div>
-						</div>
-					</div>
-					<div class="cell">
-						<div class="card">
-							<img src="assets/img/generic/rectangle-1.jpg" />
-							<div class="card-section">
-								<h4>This is a card.</h4>
-								<p>It has an easy to override visual style, and is appropriately subdued.</p>
+								<h4>Tuesday Night Trivia</h4>
+								<p id="event-venue">Unscripted Durham Hotel</p>
+								<p id="event-description">
+									<p>Join Unscripted Hotel for Tuesday Night Trivia. See social media for details/topics and to sign up.</p>
+								</p>
+								<p id="event-date">November 27 2018, 12:00 am</p><a href="http://raleigh.eventful.com/events/tuesday-night-trivia-/E0-001-119959755-0?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic">More
+									Info</a>
 							</div>
 						</div>
 					</div>
@@ -109,6 +66,8 @@
 		</div>
 
 		<!-- cards set -->
+
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDi3cbE_1LkN-5PsHkdttY3nJGJskmWwN0" async defer></script>
 </body>
 
 </html>
