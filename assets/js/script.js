@@ -1,5 +1,4 @@
 
-
 var loc = "";
 var cat = "";
 var date = "";
