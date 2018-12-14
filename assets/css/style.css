@@ -1,16 +1,16 @@
 .wrapper {
-  background-image: url(http://www.hddesktopbackgrounds.us/backgrounds-images/1920x1080/bytb5-wallpapers-010625372-1920x1080.jpg);
+  background-image: url(../images/background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
-  border-radius: 5px;
 
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
+
 .translucent-form-overlay {
-  max-width: 500px;
+  /* max-width: 500px; */
   width: 100%;
   background-color: rgba(54, 54, 54, 0.8);
   padding: 20px;
@@ -45,7 +45,6 @@
 }
 
 .grid-container {
-  max-width: 500px;
   width: 100%;
   background-color: rgba(54, 54, 54, 0.8);
   padding: 20px;
@@ -55,10 +54,69 @@
   background-color: rgba(54, 54, 54, 0.8);
   padding: 20px;
   border-radius: 10px;
-  max-width: 500px;
-  max-height: 500px;
+  width: 75%;
+  height: 90vh;
+
+  margin: 0 5vh;
   overflow: auto;
 }
+
+#search-box {
+	flex-grow: 1;
+	margin: 1vw;
+	width: 25%;
+}
+
+#card-box {
+	flex-grow: 2;
+}
+
+.card {
+	display: flex;
+}
+
+p {
+	margin: 0;
+}
+
+h4 {
+	margin: 0;
+}
+
+#event-venue {
+	color: #8a8a8a;
+}
+
+#event-date {
+	color: #8a8a8a;
+}
+
+.map {
+	height: 250px;
+}
+
+.card-section {
+	width: 50%;
+}
+
+@media screen and (max-width: 1024px) {
+	.wrapper {
+		flex-direction: column;
+	}
+
+	#search-box {
+		width: unset;
+	}
+
+	#card-box {
+		width: unset;
+	}
+}
+
+
+
+
+
 /* Similar Building Blocks
   FORMS
   Floating Label Form
