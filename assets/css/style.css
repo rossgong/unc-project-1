@@ -109,7 +109,14 @@ h4 {
 	}
 
 	#card-box {
-		width: unset;
+		width: 100%;
+	}
+	.card {
+		flex-direction: column;
+	}
+
+	.card-section {
+		width: 100%;
 	}
 }
 
