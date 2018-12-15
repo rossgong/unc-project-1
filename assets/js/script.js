@@ -9,6 +9,9 @@ var apiKey = "d5BxBLF9bV3zMw6v";
 $(document).ready(function () {
 	$("#search-btn").on("click", function (event) {
 
+		$("#container").attr("style", "");
+		$("#card-box").attr("style", "");
+
 
 		var momDate = moment($("#date-input").val(), "MM/DD/YYYY");
 		if (!momDate.isValid()) {
